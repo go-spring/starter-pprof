@@ -27,9 +27,9 @@ func init() {
 	// Registers a SimplePProfServer bean in the IoC container.
 	gs.Provide(
 		NewSimplePProfServer,
-		gs.TagArg("${spring.simple-pprof-server.addr:=:9981}"),
+		gs.TagArg("${spring.pprof.addr:=:9981}"),
 	).Condition(
-		gs.OnProperty("spring.simple-pprof-server.enabled").HavingValue("true").MatchIfMissing(),
+		gs.OnProperty("spring.pprof.enabled").HavingValue("true").MatchIfMissing(),
 	).Export(gs.As[gs.Server]())
 }
 

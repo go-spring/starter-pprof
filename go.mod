@@ -10,7 +10,7 @@ require (
 	github.com/expr-lang/expr v1.17.6 // indirect
 	github.com/go-spring/gs-mock v0.0.7 // indirect
 	github.com/go-spring/log v0.1.0-alpha // indirect
-	github.com/go-spring/stdlib v0.0.10 // indirect
+	github.com/go-spring/stdlib v0.0.11 // indirect
 	github.com/gopherjs/gopherjs v1.12.80 // indirect
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
 	github.com/magiconair/properties v1.8.10 // indirect
